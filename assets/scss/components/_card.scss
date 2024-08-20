@@ -1,0 +1,23 @@
+/* @use "../variables/colors";
+@use "../variables/fonts"; */
+@use "../variables/index" as *;
+.card {
+  color: $primary-color;
+  font-size: $font-large;
+  &__title {
+    color: $secondary-color;
+  }
+  &__btn {
+    padding: 1rem;
+    background-color: $primary-color;
+  }
+  &__btn-primary {
+    background-color: $secondary-color;
+  }
+  &.active {
+    background-color: $primary-color;
+  }
+  &.disable {
+    background-color: $secondary-color;
+  }
+}

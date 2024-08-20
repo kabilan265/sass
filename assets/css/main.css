@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+/* @use "../variables/colors";
+@use "../variables/fonts"; */
+.card {
+  color: red;
+  font-size: 20px;
+}
+.card__title {
+  color: green;
+}
+.card__btn {
+  padding: 1rem;
+  background-color: red;
+}
+.card__btn-primary {
+  background-color: green;
+}
+.card.active {
+  background-color: red;
+}
+.card.disable {
+  background-color: green;
+}
+
+.btn-primary {
+  padding: 1rem;
+  color: #000;
+  background-color: blue;
+  background-color: blue;
+}
+.btn-secondary {
+  padding: 1rem;
+  color: #000;
+  background-color: blue;
+  background-color: green;
+}
+.btn-default {
+  padding: 1rem;
+  color: #fff;
+  background-color: blue;
+  background-color: black;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+@use "../utilities/mixins";
+
+.btn {
+  &-primary {
+    @include mixins.btn;
+    background-color: blue;
+  }
+  &-secondary {
+    @include mixins.btn;
+    background-color: green;
+  }
+  &-default {
+    @include mixins.btn(#fff);
+    background-color: black;
+  }
+}

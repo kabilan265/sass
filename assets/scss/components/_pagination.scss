@@ -1,0 +1,9 @@
+/* @use "../variables/colors";
+@use "../variables/fonts";
+ */
+@use "../variables/index";
+
+.pagination {
+  color: colors.$secondary-color;
+  font-size: $font-large;
+}
